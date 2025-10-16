@@ -1,8 +1,6 @@
 import React from "react";
 import { FlexPlugin } from "@twilio/flex-plugin";
 
-import CustomTaskList from "./components/CustomTaskList/CustomTaskList";
-
 async function fetchMosScore(token, clientCallSid, baseUrl) {
   try {
     const response = await fetch(
